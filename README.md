@@ -17,3 +17,8 @@ For them to run, you need to have docker installed and running on your machine.
 
 # API Documentation
 Swagger UI is available at `http://localhost:8080/swagger-ui/index.html`
+
+# Notes
+The service is a multitenancy application. A tenant has its own customer base with its own range of customer numbers.
+Tenants might be different websites, e.g., 'tipp24.de' and 'lotto24.de'.
+This means customer numbers can be reused on different tenants by different customers.
